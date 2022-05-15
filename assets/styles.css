@@ -1,0 +1,173 @@
+:root{
+    --border-bottom:  #ac7d8870 2px solid;
+    
+}
+
+h1{
+    font-size:30px ;
+}
+body{
+    background-color: #ac7d8835;
+}
+
+/* Header Section */
+header {
+    /* align-items: center; */
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+    float: left;
+    width: 200px;
+    height: 660px;
+    position: fixed;
+    top: 0 ;
+    left: 0 ;
+    background-color: #AC7D88;
+    
+  }
+
+  .sidebar-avatar{
+    width: 80%;
+   margin: 10% 10%;
+   border-radius: 20%;
+   box-shadow:5px 5px 5px #2b2a2a  ;
+  }
+  .home-background {
+    height: 500px;
+    width: 100%;
+    background-image: url(../assets/images/PortfolioBgPic.jpeg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    
+  }
+  .layer {
+    background-color: rgba(9, 9, 1, 0.607);
+    position: relative;
+
+    left:13%;
+    width: 90%;
+    height: 100%;
+}
+
+ 
+
+  .sidebar-menu{
+
+  }
+
+
+/* Main Section */
+  main{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 80px auto 280px;
+    max-height:none;
+    
+   
+  }
+    
+
+/* Home Section */
+.home-section{
+    
+    width: 100%;
+    height: 100%;
+}
+
+/* About Secton */
+.about-section{
+    border-bottom: var(--border-bottom);
+
+
+}
+
+/* Skills Section */
+.skills-section{
+    border-bottom: var(--border-bottom);
+}
+
+.skills-flex-area {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+.card {
+    background: grey;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Projects Section */
+.project-flex-area {
+    border-bottom: var(--border-bottom);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    background: grey;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+/* Contact Section */
+.contact-section{
+    display: flex;
+    display: inline;
+    border-bottom:var(--border-bottom) ;
+    width:100%
+}
+
+.contact-form {
+	margin-left: 300px;
+	margin-right: 100px;
+  
+}
+
+.contact-form .row {
+
+	margin-bottom: 10px;
+	min-height: 5px;
+    
+	
+}
+
+/* Footer Section */
+.footer-section {
+    
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    
+  }
