@@ -183,7 +183,7 @@ header {
 }
 
 .card p {
-    
+
 }
 
 /* Projects Section */
@@ -197,25 +197,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.card {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: stretch;
-    background: grey;
-    padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin-top: 10px;
-    line-height: 100px;
-    color: white;
-    font-weight: bold;
-    font-size: 10px;
-    text-align: center;
-    margin-bottom: 70px;
-    margin-top:40px;
 
-}
 
 /* Contact Section */
 .contact-section{
