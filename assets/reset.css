@@ -33,11 +33,12 @@ nav ul {
 }
 
 a {
-    margin:0;
+    text-decoration: none;
+    /* margin:0;
     padding:0;
     font-size:0;
     vertical-align:baseline;
-    background:transparent;
+    background:transparent; */
 }
 
 
