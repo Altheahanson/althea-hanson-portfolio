@@ -169,21 +169,21 @@ header {
     justify-content: space-around;
     
 }
-.card {
+.skills-flex-area .card {
     background-color: #85586F;
     padding: 5px;
     width: 200px;
     height: 150px;
-    margin-top: 10px;
-    line-height: 100px;
-    color: white;
+    margin-top: 30px;
+    color: black;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .card p {
-
+line-height: normal;
 }
 
 /* Projects Section */
@@ -196,6 +196,19 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+}
+
+.project-flex-area .card {
+    background:transparent;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 
