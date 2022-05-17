@@ -23,7 +23,7 @@ header {
     justify-content: center;
     float: left;
     width: 200px;
-    height: 660px;
+    height: 100%;
     position: fixed;
     top: 0 ;
     left: 0 ;
@@ -90,7 +90,7 @@ header {
     background-color: #85586F;
    }
    .sidebar .button{
-       margin: 30px;
+       margin: 20px;
    }
 
 
@@ -309,54 +309,94 @@ form {
     padding: 0 30px 30px;
 
   }
-
-  @media screen and (max-width: 900px) {
+/* Media Query Views */
+@media screen and (max-width: 972px) {
     header {
-list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  width: 15%;
-  background-color: #85586F;
-  display: inline-block;
-  position: fixed;
-  top: 0 ;
-  width: 100%;
-  overflow: auto;
-height: 10%;
+        list-style-type: none;
+        position: fixed;
+        width:calc(100vw - 2px);
+        height: 15%;
+    }
+    header ul{
+        display: flex;  
+    }
+    .sidebar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: -20px;
+        align-items: center; 
+    }
+    .sidebar header{
+        margin-top: 10px; 
     }
 
-.sidebar{
-display: inline-block;
-display: flex;
-flex-wrap: wrap;
-flex-flow: row wrap;
+    .sidebar-avatar {
+        display: none;
+    }
+    .sidebar .location{
+        display: none;
+    }
+    .list-menu li{
+        margin: 0 6px 30px 6px;
+    }
+    .sidebar-contact {
+        /* text-align: center; */
+        display: inline-block;
+        align-items: center;
+        padding-top: 0 ;  
+    }
+    .sidebar .button{
+        margin: 10px;
+    }
+    .home-background {
+        /* margin-top: 30px; */
+        height: 2px;
+        z-index: -30;
+        padding-top: 50%;
+        margin-bottom: -10px;
+    }
+    .layer{
+        display:none;
+    }
+    main {
+        margin: 50px 80px auto 50px;
+        padding-left: 10%;
+    }
+    form {
+        margin-left: 10%;
+    }
 
 }
 
-.sidebar-avatar{
-    display:none;
-}
-.sidebar-contact{
-    /* text-align: center; */
-    display: inline-block;
-    margin-top: 10px;
-    align-items: center;
-   }
+
+@media screen and (max-width: 625px){
+    header {
+        list-style-type: none;
+        position: fixed;
+        width:calc(100vw - 2px);
+        height: 20%;
+    }
+    .sidebar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 20px;     
+    }
+    .home-background{
+        display: none;
+    }
+    main{
+        margin-top: 50%;
+        font-size: large;
+    }
+    .sidebar-menu{
+        margin: 30px 0 -20px;
+       }
+    .sidebar .button{
+        margin: 0px;
+    }
 
 
-   .home-background{
-    margin-top: 30px;
-       height:200px ;
-       z-index: -30;
-   }
-
-main{
-    margin: 50px 80px auto 50px;
-    padding-left: 10%;
-}
-
-form{
-    margin-left: 10%;
-}
 
 }

@@ -17,18 +17,20 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Menu Area](#menu-area)
-- [Credits](#credits)
+- [References](#references)
 
 ## Menu Areas
--   
-
+- About 
+    - Here you will find information about me and my journey as a developer
+- Skills
+    - This secton showcases the skills that I have
+- Projects
+    - Here you will find a list of projects i have completed and links to projects pages to explore my results as well as the code behind each project
+- Contact
+    - If you 
 
 ## References
-- Github Pages
-https://altheahanson.github.io/refactoring/
 
-- Semantic Elements
-https://www.w3schools.com/html/html5_semantic_elements.asp
 
 ![Html Changes](./assets/images/html-changes-pic.png)
 ![Css Changes](./assets/images/css-changes-pic.png)
