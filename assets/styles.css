@@ -375,7 +375,7 @@ form {
         list-style-type: none;
         position: fixed;
         width:calc(100vw - 2px);
-        height: 20%;
+        height: 30%;
     }
     .sidebar {
         display: flex;

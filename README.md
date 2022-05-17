@@ -18,6 +18,8 @@
 - [Installation](#installation)
 - [Menu Area](#menu-area)
 - [References](#references)
+- [Deployed Site Link](#deployed-site)
+- [Wireframe Drawing](#wireframe)
 
 ## Menu Areas
 - About 
@@ -27,18 +29,11 @@
 - Projects
     - Here you will find a list of projects i have completed and links to projects pages to explore my results as well as the code behind each project
 - Contact
-    - If you 
+    - If you would like to contact me, this form is where i can be reached
 
 ## References
-
-
-![Html Changes](./assets/images/html-changes-pic.png)
-![Css Changes](./assets/images/css-changes-pic.png)
-![Deployed Changes](./assets/images/deployed-heriseon-page.png)
-
-
-
-
+![Mobile View](./assets/images/mobileView.png)
+![Deployed Site](./assets/images/deployedWebpage.png)
 
 ## Deployed Site/ Github Pages
 https://altheahanson.github.io/althea-hanson-portfolio/
