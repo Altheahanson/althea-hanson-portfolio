@@ -1,18 +1,18 @@
 :root{
     --border-bottom:  #ac7d8870 2px solid;
-    
+
 }
 
 h1{
     font-size:30px;
-    
+
 }
 body{
     background-color: #ac7d8835;
     font-family: 'Roboto', sans-serif;
     line-height: 25px;
     font-size: 18px;
-    
+
 }
 
 /* Header Section */
@@ -27,8 +27,9 @@ header {
     position: fixed;
     top: 0 ;
     left: 0 ;
-    background-color: #AC7D88; 
+    background-color: #AC7D88;
   }
+
 
   .sidebar-avatar{
     width: 80%;
@@ -39,7 +40,7 @@ header {
   .sidebar-header{
     text-align: center;
     font-size: 15px;
-    
+
   }
   .sidebar-name{
       margin-bottom:30px ;
@@ -60,7 +61,7 @@ header {
    .list-menu li{
    margin-bottom: 30px;
    text-align: center;
-  
+
    }
    .list-menu a{
     text-decoration: none;
@@ -90,7 +91,7 @@ header {
    }
    .sidebar .button{
        margin: 30px;
-   } 
+   }
 
 
    /* Home Section */
@@ -101,7 +102,7 @@ header {
     background-image: url(../assets/images/PortfolioBgPic.jpeg);
     background-size: cover;
     background-position: center;
-    
+
   }
   .layer {
     background-color: rgba(9, 9, 1, 0.607);
@@ -109,7 +110,7 @@ header {
     text-align:center;
     left:13%;
     width: 90%;
-    height: 100%;   
+    height: 100%;
 
 }
 
@@ -135,20 +136,20 @@ header {
     justify-content: center;
     margin: 50px 80px auto 280px;
     max-height:none;
-    
+
   }
-    
+
 
 /* Home Section */
 .home-section{
-    
+
     width: 100%;
     height: 100%;
 }
 
 /* About Secton */
 .about-section{
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
     border-bottom: var(--border-bottom);
 }
 
@@ -169,7 +170,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
+
 }
 .skills-flex-area .card {
     background-color: #85586F;
@@ -194,11 +195,11 @@ font-size: 15px ;
 .skills-flex-area i{
   padding-top: 20px;
   padding-bottom: 20px;
-}  
+}
 
 /* Projects Section */
 .project-flex-area {
-    
+
     border-bottom: var(--border-bottom);
     padding: 0;
     margin: 0;
@@ -236,7 +237,7 @@ font-size: 15px ;
     margin-top:40px;
 }
 
-.contact-form .row { 
+.contact-form .row {
 	margin-bottom: 15px;
 	min-height: 5px;
     display: wrap;
@@ -245,16 +246,16 @@ font-size: 15px ;
 form {
     text-align: center;
     margin: 0 100px 50px 150px;
-   
-  
+
+
   }
-  
+
   fieldset {
     border: 0;
     margin: 0;
     padding: 0;
   }
-  
+
   .contact-form input,
   .contact-form textarea {
     background-color: #7b506678;
@@ -270,28 +271,28 @@ form {
     box-shadow: 0 1px 1px rgba(34, 34, 34, 0.1);
     resize: none;
   }
-  
+
   .contact-form textarea {
     margin-bottom: 1em;
     height: 125px;
   }
-  
+
   .contact-form input:focus {
     box-shadow: 0 0px 2px #85586F !important;
   }
-  
+
   .contact-form textarea:focus {
     box-shadow: 0 0px 2px #85586F !important;
   }
-  
+
   #submit {
-    
+
     color: #36454f;
     background-color: #bfbfbf;
     cursor: pointer;
     font-weight: 400;
   }
-  
+
   #submit:hover {
     background-color: rgba(3, 201, 169, 0.6);
   }
@@ -301,17 +302,16 @@ form {
     margin-top: -55;
     width: 100%;
     padding: 1rem;
-    text-align: center; 
+    text-align: center;
   }
 
-  .footer-section i{ 
+  .footer-section i{
     padding: 0 30px 30px;
-    
-  } 
+
+  }
 
   @media screen and (max-width: 900px) {
     header {
-
 list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -323,9 +323,16 @@ list-style-type: none;
   width: 100%;
   overflow: auto;
 height: 10%;
-  display: flex;
- flex-wrap: wrap;
     }
+
+.sidebar{
+display: inline-block;
+display: flex;
+flex-wrap: wrap;
+flex-flow: row wrap;
+
+}
+
 .sidebar-avatar{
     display:none;
 }
@@ -333,15 +340,23 @@ height: 10%;
     /* text-align: center; */
     display: inline-block;
     margin-top: 10px;
-    text-orientation:initial;
+    align-items: center;
    }
 
 
+   .home-background{
+    margin-top: 30px;
+       height:200px ;
+       z-index: -30;
+   }
+
 main{
     margin: 50px 80px auto 50px;
+    padding-left: 10%;
 }
 
-
+form{
+    margin-left: 10%;
+}
 
 }
-    
