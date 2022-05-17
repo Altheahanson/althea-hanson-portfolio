@@ -309,4 +309,39 @@ form {
     
   } 
 
+  @media screen and (max-width: 900px) {
+    header {
+
+list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 15%;
+  background-color: #85586F;
+  display: inline-block;
+  position: fixed;
+  top: 0 ;
+  width: 100%;
+  overflow: auto;
+height: 10%;
+  display: flex;
+ flex-wrap: wrap;
+    }
+.sidebar-avatar{
+    display:none;
+}
+.sidebar-contact{
+    /* text-align: center; */
+    display: inline-block;
+    margin-top: 10px;
+    text-orientation:initial;
+   }
+
+
+main{
+    margin: 50px 80px auto 50px;
+}
+
+
+
+}
     
