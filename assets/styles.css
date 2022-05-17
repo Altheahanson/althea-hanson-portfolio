@@ -45,7 +45,7 @@ header {
       margin-bottom:30px ;
       font-family: 'Tangerine', cursive;
       font-size: 35px;
-      font-weight: ;
+      font-weight: 900;
 
   }
 
@@ -85,9 +85,12 @@ header {
     padding: 10px 20px 10px 20px;
     box-shadow: 0 8px 6px -6px black;
   }
-  a:hover, a:active {
+ .sidebar a:hover, a:active {
     background-color: #85586F;
    }
+   .sidebar .button{
+       margin: 30px;
+   } 
 
 
    /* Home Section */
@@ -133,7 +136,6 @@ header {
     margin: 50px 80px auto 280px;
     max-height:none;
     
-   
   }
     
 
@@ -172,19 +174,27 @@ header {
 .skills-flex-area .card {
     background-color: #85586F;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     margin-top: 30px;
     color: black;
-    font-weight: bold;
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 40px;
 }
 
-.card p {
-line-height: normal;
+.skills-flex-area .card p {
+line-height: 15px;
+font-size: 15px ;
 }
+
+.skills-section p{
+    padding-top:30px;
+}
+.skills-flex-area i{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}  
 
 /* Projects Section */
 .project-flex-area {
@@ -201,18 +211,22 @@ line-height: normal;
 .project-flex-area .card {
     background:transparent;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     margin-top: 30px;
     color: black;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 25px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+.project-section p{
+    padding-top:30px;
 }
 
 
-/* Contact Section */
+/* Contact */
 .contact-section{
     display: flex;
     display: block;
@@ -222,31 +236,77 @@ line-height: normal;
     margin-top:40px;
 }
 
-.contact-form {
-    
-	margin-left: 150px;
-	margin-right: 100px;
-    margin-bottom: 50px;
-  
-}
-
-.contact-form .row {
-    
-	margin-bottom: 10px;
+.contact-form .row { 
+	margin-bottom: 15px;
 	min-height: 5px;
     display: wrap;
 }
-.contact-form input{
-    max-width: 100%;
-}
+
+form {
+    text-align: center;
+    margin: 0 100px 50px 150px;
+   
+  
+  }
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    background-color: #7b506678;
+    border: 0;
+    outline: 0;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    padding: 0.8em;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgba(34, 34, 34, 0.1);
+    resize: none;
+  }
+  
+  .contact-form textarea {
+    margin-bottom: 1em;
+    height: 125px;
+  }
+  
+  .contact-form input:focus {
+    box-shadow: 0 0px 2px #85586F !important;
+  }
+  
+  .contact-form textarea:focus {
+    box-shadow: 0 0px 2px #85586F !important;
+  }
+  
+  #submit {
+    
+    color: #36454f;
+    background-color: #bfbfbf;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  #submit:hover {
+    background-color: rgba(3, 201, 169, 0.6);
+  }
 
 /* Footer Section */
 .footer-section {
     margin-top: -55;
     width: 100%;
     padding: 1rem;
-    text-align: center;
-    
+    text-align: center; 
   }
 
-  
+  .footer-section i{ 
+    padding: 0 30px 30px;
+    
+  } 
+
+    
