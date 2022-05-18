@@ -315,6 +315,9 @@ fieldset {
         width: calc(100vw - 2px);
         height: 70px;
     }
+    .margin-head{
+        scroll-margin-top: 75px;
+    }
 
     header ul {
         display: flex;
@@ -365,8 +368,7 @@ fieldset {
         display: none;
     }
 
-    main {
-        scroll-margin-top: 90vw;
+    main {      
         margin: 50px 80px auto 50px;
         padding-left: 10%;
     }
@@ -374,6 +376,7 @@ fieldset {
     form {
         margin-left: 10%;
     }
+
 
 }
 
@@ -384,6 +387,9 @@ fieldset {
         position: fixed;
         width: calc(100vw - 2px);
         height: 35vw;
+    }
+    .margin-head{
+        scroll-margin-top: 40vw;
     }
 
     .sidebar {
