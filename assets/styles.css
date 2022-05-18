@@ -386,10 +386,10 @@ fieldset {
         list-style-type: none;
         position: fixed;
         width: calc(100vw - 2px);
-        height: 35vw;
+        height: 49vw;
     }
     .margin-head{
-        scroll-margin-top: 40vw;
+        scroll-margin-top: 54vw;
     }
 
     .sidebar {
