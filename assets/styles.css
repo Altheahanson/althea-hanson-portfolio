@@ -202,7 +202,7 @@ main {
 
     padding: 0;
     margin: 0;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     list-style: none;
     display: flex;
     flex-flow: row wrap;
@@ -234,6 +234,10 @@ main {
 
 #project-area{
     border-bottom: var(--border-bottom);
+}
+.github{
+    margin-top: 55px;
+    font-size: 20px;
 }
 
 
